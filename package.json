@@ -1,0 +1,36 @@
+{
+  "name": "react-motion-detect",
+  "version": "1.0.0",
+  "description": "Simple component to detect motion from a webcam and callback",
+  "main": "dist/index.js",
+  "peerDependencies": {
+    "react": ">16.8"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf dist && NODE_ENV=production babel lib --out-dir dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brian221/react-motion-detect.git"
+  },
+  "keywords": [
+    "react",
+    "motion",
+    "detect",
+    "video"
+  ],
+  "author": "Brian Welter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brian221/react-motion-detect/issues"
+  },
+  "homepage": "https://github.com/brian221/react-motion-detect#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.5",
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/polyfill": "^7.12.1"
+  }
+}
